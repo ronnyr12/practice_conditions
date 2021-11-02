@@ -7,13 +7,15 @@ import java.util.Scanner;
  * Q4 - solution
  * DO NOT FORGET - ENABLE AUTO IMPORT
  */
-public class Q4{
+public class Q4 {
     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("enter the number of students registered to the summer camp");
-        //complete missing code
+        System.out.println("Enter the number of students registered to the summer camp: ");
+        int kids = in.nextInt();
 
-
+        double result = (double) kids / 10;
+        if (result != (int) result) result += 1;
+        System.out.println((int) result);
     }
 }
