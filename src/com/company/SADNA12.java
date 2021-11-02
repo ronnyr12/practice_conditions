@@ -5,5 +5,6 @@ public class SADNA12 {
         //hw of today - finish the whole exercises
         System.out.println("class cs 2021 rules!");
         System.out.println("ok");
+
     }
 }
