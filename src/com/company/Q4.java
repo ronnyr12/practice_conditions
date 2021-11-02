@@ -10,10 +10,12 @@ import java.util.Scanner;
 public class Q4{
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         System.out.println("enter the number of students registered to the summer camp");
-        //complete missing code
+        int kids = in.nextInt();
 
-
+        double result = (double) kids/10;
+        if(result!=(int) result) result+=1;
+        System.out.println(result);
     }
 }

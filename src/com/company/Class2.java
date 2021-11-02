@@ -7,7 +7,7 @@ public class Class2 {
         //even or odd number
         Scanner s = new Scanner(System.in);
         int num = s.nextInt();
-        if(num % 2 != 0)
+        if (num % 2 != 0)
             System.out.println("odd value");
         else
             System.out.println("even value");
