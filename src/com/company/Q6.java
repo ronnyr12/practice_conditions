@@ -8,8 +8,13 @@ import java.util.Scanner;
 public class Q6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("enter the number of students registered to the summer camp");
-        //complete missing code
+        int people = scanner.nextInt();
+        if (Double.valueOf(people) / 8 != people) {
+            System.out.println(people/8*30 + 30);
+        }
+        else {
+            System.out.println(people/8*30);
+        }
 
     }
 }

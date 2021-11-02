@@ -12,8 +12,13 @@ public class Q4{
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter the number of students registered to the summer camp");
-        //complete missing code
-
-
+        int stud = scanner.nextInt();
+        int counselor = stud/10;
+        if(stud%10!=0){
+            counselor++;
+            System.out.print(counselor);
+        }else{
+            System.out.print(counselor);
+        }
     }
 }
