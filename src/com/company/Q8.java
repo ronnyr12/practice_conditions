@@ -11,7 +11,12 @@ public class Q8 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        //complete missing code
+        if (scanner.nextInt()+scanner.nextInt()+scanner.nextInt() > 100) {
+            System.out.println(">100");
+        }
+        else {
+            System.out.println("<100");
+        }
     }
 
 
